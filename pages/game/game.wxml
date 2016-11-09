@@ -1,0 +1,4 @@
+<view class="container">
+  game
+</view>
+<include src="../menu/menu.wxml"/>

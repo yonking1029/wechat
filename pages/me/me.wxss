@@ -1,0 +1,16 @@
+/**index.wxss**/
+@import '../menu/menu.wxss';
+.me-avatar{
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.me-describe{
+  height: 168rpx;
+  min-width: 575rpx;
+}
+.me-nickName{
+  color: #aaa;
+  line-height: 208rpx
+}

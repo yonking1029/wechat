@@ -1,0 +1,29 @@
+/**app.wxss**/
+page{background-color: rgb(239, 239, 239);font-family: Microsoft YaHei;}
+.back-while{
+  background-color: white;
+  margin-top: 10rpx;
+}
+.item{
+  border-bottom: 1px solid rgb(239, 239, 239);
+  margin-left: 20rpx;
+  padding: 10rpx;
+}
+.item-icon{
+  height: 50rpx;
+  width: 50rpx;
+  float: left;
+}
+.item-text{
+  float: left;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.item-advance{
+  float: right;
+  height: 40rpx;
+  width: 40rpx;
+}
+.float{float:left;}
+.clear{clear: both;}

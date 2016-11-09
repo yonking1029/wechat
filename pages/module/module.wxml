@@ -1,0 +1,49 @@
+<template name="picture">
+  <view class="module-content back-while">
+    <view class="module-header">
+      <image class="module-avatar float" src="../../img/temp/nba.jpg"></image>
+      <view class="float">
+        <view class="module-name">NBA</view>
+        <view class="module-time">2016年11月9日17:41:51</view>
+      </view>
+      <view class="clear"></view>
+    </view>
+    <view class="module-text">
+      【开场连得13分！沃顿麾下单打王重获新生】新赛季湖人的表现令人眼前一亮，前7场比赛取得4胜3负的战绩胜率过半，近期还取得了三连胜，气势正盛。而新赛季湖人阵中最让人惊喜的球员不是拉塞尔，也不是英格拉姆，而是“单打王”尼克-杨。今天杨哥在首节包办了球队的前13分，并最终得到20分。
+    </view>
+    <view>
+      <image class="module-image" src="../../img/temp/nikeyang.jpg"></image>
+    </view>
+    <view class="module-footer">
+      <view class="module-button float">转发</view>
+      <view class="module-button float border-lr">评论</view>
+      <view class="module-button float">点赞</view>
+      <view class="clear"></view>
+    </view>
+  </view>
+</template>
+
+<template name="video">
+  <view class="module-content back-while">
+    <view class="module-header">
+      <image class="module-avatar float" src="../../img/temp/FREEHDNBA.jpg"></image>
+      <view class="float">
+        <view class="module-name">FREEHDNBA</view>
+        <view class="module-time">今天 10:11 来自 秒拍网页版</view>
+      </view>
+      <view class="clear"></view>
+    </view>
+    <view class="module-text">
+      Zach LaVine 美如畫 L秒拍视频 .
+    </view>
+    <view>
+      <image class="module-image" src="../../img/temp/saf.png"></image>
+    </view>
+    <view class="module-footer">
+      <view class="module-button float">转发</view>
+      <view class="module-button float border-lr">评论</view>
+      <view class="module-button float">点赞</view>
+      <view class="clear"></view>
+    </view>
+  </view>
+</template>

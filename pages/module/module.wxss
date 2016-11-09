@@ -1,0 +1,36 @@
+.module-content{
+    padding:25rpx;
+}
+.module-avatar{
+    height: 100rpx;
+    width: 100rpx;
+}
+
+.module-name{
+    font-size: 16px;
+    color: orange;
+    margin: 0rpx 0rpx 20rpx 25rpx;
+}
+.module-time{
+    color:grey;
+    font-size: 12px;
+    margin: 10rpx 0rpx 0rpx 25rpx;
+}
+.module-text{
+    margin: 20rpx 0rpx;
+    font-size: 14px;
+}
+.module-footer{
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 8rpx;
+}
+.module-button{
+    width: 32.7%;
+    text-align: center;
+    margin: 5rpx 0rpx;
+}
+.border-lr{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}

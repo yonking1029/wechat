@@ -1,0 +1,23 @@
+<view class="menu back-while">
+  <navigator url="../index/index" class="float menu-td">
+    <image class="menu-icon" src="../../img/icon/bottom/home-icon-hover.png"></image>
+    <view class="menu-text-hover">首页</view>
+  </navigator>
+  <navigator url="../massege/massege" class="float menu-td">
+    <image class="menu-icon" src="../../img/icon/bottom/massege-icon.png"></image>
+    <view class="menu-text">消息</view>
+  </navigator>
+  <navigator url="../game/game" class="float menu-td">
+    <image class="menu-icon" src="../../img/icon/bottom/game-icon.png"></image>
+    <view class="menu-text">赛事</view>
+  </navigator>
+  <navigator url="../find/find" class="float menu-td">
+    <image class="menu-icon" src="../../img/icon/bottom/find-icon.png"></image>
+    <view class="menu-text">发现</view>
+  </navigator>
+  <navigator url="../me/me" class="float menu-td">
+    <image class="menu-icon" src="../../img/icon/bottom/me-icon.png"></image>
+    <view class="menu-text">我</view>
+  </navigator>
+  <view class="clear menu-td"></view>
+</view>

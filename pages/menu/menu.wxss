@@ -1,0 +1,27 @@
+/** wxss **/
+.menu{
+    height: 51px;
+    clear: both;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    box-shadow: 0px -1px 2px rgba(150,150,150,.3);
+    padding: 3px 0px;
+}
+
+.menu-td{
+    min-width: 20%;
+    text-align: center;
+}
+.menu-icon{
+    height: 60rpx;
+    width: 60rpx;
+    display: inline-block;
+}
+.menu-text{
+    font-size: 25rpx;
+}
+.menu-text-hover{
+    font-size: 25rpx;
+    color: green;
+}

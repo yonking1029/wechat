@@ -1,0 +1,4 @@
+<view class="container">
+  find
+</view>
+<include src="../menu/menu.wxml"/>

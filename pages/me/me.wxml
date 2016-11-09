@@ -1,0 +1,51 @@
+<!--me.wxml-->
+<view class="me-container">
+  <view class="back-while">
+    <image class="me-avatar float" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="me-describe float">
+      <text class="me-nickName">{{userInfo.nickName}}</text>
+    </view>
+    <view class="clear"></view>
+  </view>
+
+  <view class="back-while">
+    <view class="item">
+      <image class="item-icon" src="../../img/icon/match-icon.png"></image>
+      <view class="item-text">联赛</view>
+      <image class="item-advance" src="../../img/icon/advance-icon.png"></image>
+      <view class="clear"></view>
+    </view>
+  </view>
+  
+  <view class="back-while">
+    <view class="item">
+      <image class="item-icon" src="../../img/icon/team-icon.png"></image>
+      <view class="item-text">战队</view>
+      <image class="item-advance" src="../../img/icon/advance-icon.png"></image>
+      <view class="clear"></view>
+    </view>
+  </view>
+
+  <view class="back-while">
+    <view class="item">
+      <image class="item-icon" src="../../img/icon/friend-icon.png"></image>
+      <view class="item-text">好友</view>
+      <image class="item-advance" src="../../img/icon/advance-icon.png"></image>
+      <view class="clear"></view>
+    </view>
+    <view class="item">
+      <image class="item-icon" src="../../img/icon/wallet-icon.png"></image>
+      <view class="item-text">钱包</view>
+      <image class="item-advance" src="../../img/icon/advance-icon.png"></image>
+      <view class="clear"></view>
+    </view>
+    <view class="item">
+      <image class="item-icon" src="../../img/icon/collect-icon.png"></image>
+      <view class="item-text">收藏</view>
+      <image class="item-advance" src="../../img/icon/advance-icon.png"></image>
+      <view class="clear"></view>
+    </view>
+  </view>
+</view>
+
+<include src="../menu/menu.wxml"/>

@@ -1,0 +1,3 @@
+/**index.wxss**/
+@import '../menu/menu.wxss';
+@import '../module/module.wxss';

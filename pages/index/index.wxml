@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<import src="../module/module.wxml"/>
+<scroll-view class="scroll" scroll-y="true" style="height: 1130rpx;" bindscrolltoupper="upper"
+ bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+<view class="container">
+  <template is="picture" data="{{...staffA}}"/>
+</view>
+</scroll-view>
+<include src="../menu/menu.wxml"/>
